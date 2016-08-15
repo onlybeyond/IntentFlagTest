@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_basic"/>
+    <Button
+        android:id="@+id/four_btn_test_one"
+        android:text="测试一(new task)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/four_btn_test_two"
+        android:text="测试二(new task 和 single top)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/four_btn_test_three"
+        android:text="测试三(new task 和 clean top)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/four_btn_test_four"
+        android:text="测试四(new task 和 clean task)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/four_btn_test_five"
+        android:text="测试五(clean task 和 single top)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/four_btn_test_six"
+        android:text="测试六( single top)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/four_btn_test_seven"
+        android:text="测试五(clean top 和 single top)"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+</LinearLayout>
